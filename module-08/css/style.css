@@ -190,6 +190,7 @@ p {
   text-transform: uppercase;
   text-align: center;
   color: rgb(255, 255, 255);
+  margin-bottom: 20px;
   /* line-height: 34.5px; according to normalize.css  */
 }
 
