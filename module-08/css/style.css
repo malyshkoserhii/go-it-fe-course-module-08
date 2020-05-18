@@ -334,7 +334,8 @@ p {
   margin-bottom: 30px;
 }
 
-.partner-description-br {
+.partner-description-br,
+.partners-title-br {
   display: block;
 }
 
