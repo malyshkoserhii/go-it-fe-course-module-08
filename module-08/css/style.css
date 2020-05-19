@@ -6,7 +6,7 @@
   src: local("Roboto Light"), local("Roboto-Light"),
     url("../fonts/roboto-v20-latin-300.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/roboto-v20-latin-300.woff") format("woff");
+    url("../fonts/roboto-v20-latin-300.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -18,7 +18,7 @@
   src: local("Roboto Light Italic"), local("Roboto-LightItalic"),
     url("../fonts/roboto-v20-latin-300italic.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/roboto-v20-latin-300italic.woff") format("woff");
+    url("../fonts/roboto-v20-latin-300italic.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -30,7 +30,7 @@
   src: local("Roboto"), local("Roboto-Regular"),
     url("../fonts/roboto-v20-latin-regular.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/roboto-v20-latin-regular.woff") format("woff");
+    url("../fonts/roboto-v20-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -42,7 +42,7 @@
   src: local("Roboto Italic"), local("Roboto-Italic"),
     url("../fonts/roboto-v20-latin-italic.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/roboto-v20-latin-italic.woff") format("woff");
+    url("../fonts/roboto-v20-latin-italic.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -54,7 +54,7 @@
   src: local("Montserrat Regular"), local("Montserrat-Regular"),
     url("../fonts/montserrat-v14-latin-regular.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/montserrat-v14-latin-regular.woff") format("woff");
+    url("../fonts/montserrat-v14-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -66,7 +66,7 @@
   src: local("Montserrat Italic"), local("Montserrat-Italic"),
     url("../fonts/montserrat-v14-latin-italic.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/montserrat-v14-latin-italic.woff") format("woff");
+    url("../fonts/montserrat-v14-latin-italic.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -78,7 +78,7 @@
   src: local("Montserrat Bold"), local("Montserrat-Bold"),
     url("../fonts/montserrat-v14-latin-700.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/montserrat-v14-latin-700.woff") format("woff");
+    url("../fonts/montserrat-v14-latin-700.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -90,7 +90,7 @@
   src: local("Montserrat Bold Italic"), local("Montserrat-BoldItalic"),
     url("../fonts/montserrat-v14-latin-700italic.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/montserrat-v14-latin-700italic.woff") format("woff");
+    url("../fonts/montserrat-v14-latin-700italic.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -139,9 +139,8 @@ p {
   margin: 0px auto;
 }
 
-/* HEADER  */
-
 .page-header {
+  width: 100%;
   background-color: rgb(26, 25, 21);
   background-image: url("../img/header-mobile.png");
   background-repeat: no-repeat;
@@ -164,7 +163,6 @@ p {
   text-align: center;
   background: transparent;
   border: none;
-  /* line-height: 16.1px; according to normalize.css  */
 }
 
 .sign-up {
@@ -181,7 +179,6 @@ p {
   color: rgb(255, 255, 255);
   text-align: center;
   margin-bottom: 36px;
-  /* line-height: 23px; according to normalize.css  */
 }
 
 .main-title {
@@ -191,7 +188,6 @@ p {
   text-align: center;
   color: rgb(255, 255, 255);
   margin-bottom: 20px;
-  /* line-height: 34.5px; according to normalize.css  */
 }
 
 .main-title-description {
@@ -201,7 +197,6 @@ p {
   text-align: center;
   color: rgb(255, 255, 255);
   margin-bottom: 18px;
-  /* line-height: 20.7px; according to normalize.css  */
 }
 
 .main-title-description-br {
@@ -219,27 +214,27 @@ p {
   margin: 0px auto;
   text-align: center;
   line-height: 40px;
-  /* line-height: 16.1px; according to normalize.css  */
 }
 
-/* SECTION PARTNERS  */
-
 .partners-section {
-  padding: 73px 0px;
+  padding: 75px 0px;
 }
 
 .partner {
   margin-bottom: 30px;
 }
 
+.partner-item {
+  width: 206px;
+}
+
 .partners-title {
   font-family: var(--main-font);
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   text-align: center;
   color: rgb(51, 51, 51);
   margin-bottom: 20px;
-  /* line-height: 25.3px; according to normalize.css  */
 }
 
 .partner-img-wrapper {
@@ -315,11 +310,10 @@ p {
 .partner-name {
   font-family: var(--main-font);
   font-size: 14px;
-  font-weight: 700px;
+  font-weight: 700;
   text-align: center;
   color: rgb(51, 51, 51);
   margin-bottom: 18px;
-  /* line-height: 16.1px; according to normalize.css  */
 }
 
 .partner-description {
@@ -327,20 +321,16 @@ p {
   font-size: 14px;
   font-weight: 300;
   text-align: center;
-  color: rgb(102, 102, 102);
-  /* line-height: 16.1px; according to normalize.css  */
+  color: rgb(102, 102, 102)
 }
 
-.partner-item:not(:last-of-type) {
-  margin-bottom: 30px;
-}
-
+.main-title-br,
 .partner-description-br,
 .partners-title-br {
   display: block;
 }
 
-.other-partners {
+.other-partners-link {
   font-family: var(--main-font);
   font-size: 14px;
   font-weight: 700;
@@ -353,4 +343,114 @@ p {
   border: 2px solid rgb(255, 78, 80);
   border-radius: 20px;
   margin: 0px auto;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .partner-item:not(:last-of-type) {
+    margin-bottom: 30px;
+  }
+
+  .partner-item {
+    margin: 0px auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+
+  .page-header {
+    background-image: url("../img/header-tablet.png");
+    padding: 38px 0px 234px;
+  }
+
+  .registration-form,
+  .logo {
+    margin: 0px;
+  }
+
+  .page-navigation {
+    margin: 0px auto 149px;
+    width: 678px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main-title {
+    font-size: 52px;
+    margin-bottom: 40px;
+  }
+
+  .main-title-description {
+    font-size: 24px;
+    margin-bottom: 38px;
+  }
+
+  .holiday-partner-link {
+    width: 224px;
+  }
+
+  .partners-title {
+    margin-bottom: 36px;
+  }
+
+  .partner {
+    margin: 0px auto 38px;
+    width: 462px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .three {
+    order: 2;
+  }
+
+  .two {
+    order: 3;
+  }
+
+  .four {
+    order: 4;
+  }
+
+  .main-title-description-br,
+  .partner-description-br {
+    display: inline;
+  }
+
+  .other-partners-link {
+    width: 190px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .partner-item:not(:nth-of-type(2n)) {
+    margin-bottom: 58px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+
+  .page-header {
+    background-image: url("../img/header-desktop.png");
+  }
+
+  .page-navigation {
+    width: 944px;
+  }
+
+  .partner {
+    width: 944px;
+  }
+
+  .partner-item {
+    margin: 0px;
+  }
 }
